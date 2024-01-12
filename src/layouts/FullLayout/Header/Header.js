@@ -2,10 +2,7 @@ import React from "react";
 //import { Link } from 'react-router-dom';
 
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
-import AddToPhotosOutlinedIcon from '@mui/icons-material/AddToPhotosOutlined';
-import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined'
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
 import {
@@ -72,15 +69,6 @@ const Header = (props) => {
         >
           <MenuOutlinedIcon width="20" height="20" />
         </IconButton>
-        {/* <IconButton
-          aria-label="menu"
-          color="inherit"
-          aria-controls="dd-menu"
-          aria-haspopup="true"
-          onClick={handleClick5}
-        >
-          <AddToPhotosOutlinedIcon />
-        </IconButton> */}
         <IconButton
           aria-label="menu"
           color="inherit"

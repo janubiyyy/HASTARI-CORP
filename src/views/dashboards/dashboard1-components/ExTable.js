@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import {
-  Typography,
   Box,
   Table,
   TableBody,
   TableCell,
   TableHead,
   TableRow,
-  Chip,
   IconButton,
   Dialog,
   DialogTitle,
